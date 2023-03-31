@@ -11,8 +11,10 @@
 		"format": "npx prettier '**/*.ts' '**/*.js' --write",
 		"lint": "eslint . --ext .ts",
 		"lint:fix": "eslint . --ext .ts --fix",
+		"migrate":"prisma migrate dev --name added_job_title",
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"start": "npm run build && node build/main.js",
+		"studio":"npx prisma studio",
 		"watch": "nodemon"
 	},
 	"keywords": [

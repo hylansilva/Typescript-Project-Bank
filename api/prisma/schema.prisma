@@ -19,3 +19,13 @@ model Account {
 
 	@@map("accounts")
 }
+
+model Transact {
+	id String @id @default(uuid())
+	date_of_transaction DateTime @default(now())
+	value Decimal
+	type Decimal
+
+
+	@@map("transactions")
+}

@@ -1,4 +1,4 @@
-import { AbsoluteCenter, Box, Button, Center, FormControl, FormLabel, Heading, Input, InputGroup, InputLeftElement, NumberInput, NumberInputField, Select, useToast } from "@chakra-ui/react";
+import { AbsoluteCenter, Box, Button, Center, FormControl, FormLabel, Heading, Input, NumberInput, NumberInputField, Select, useToast } from "@chakra-ui/react";
 import axios from "axios";
 import { useState } from "react";
 
@@ -43,7 +43,6 @@ export const CreateForm = () =>{
         height={'100vh'}
             backgroundColor={'#131720'}
         >
-
             <AbsoluteCenter>
                 <Center>
                 <Heading 
